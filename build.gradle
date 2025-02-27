@@ -103,6 +103,7 @@ dependencies {
     include modLocalRuntime("io.wispforest.lavender-md:owo-ui:0.1.2+1.21")
 
     include clientImplementation(implementation("io.vavr:vavr:0.10.5"))
+    include clientImplementation(implementation("io.vavr:vavr-match:0.10.5"))
 
     modApi("nl.enjarai:cicada-lib:${property('deps.cicada')}")
 
